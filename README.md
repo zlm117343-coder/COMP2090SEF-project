@@ -3,16 +3,15 @@
 **HKMU COMP2090SEF/8090SEF Group Project**
 
 ## 📌 Project Overview
-This project is a terminal-based Management System designed to handle university courses, instructors, and student enrollments. The project is divided into two main tasks:
-1. **Task 1:** An OOP-based application using Inheritance, Abstraction, and Polymorphism.
-2. **Task 2:** A self-study implementation of a **Graph Data Structure** and the **Breadth-First Search (BFS)** algorithm.
+This project is a Management System designed to handle university courses, professor, and student enrollments.
+An OOP-based application using Inheritance, Abstraction, and Polymorphism.
+
 
 ## 📂 File Structure
 To comply with the modular programming requirement, the code is split into:
 - `models.py`: Contains the Data Models (Classes, Inheritance, Abstraction).
 - `engine.py`: Contains the system logic (Enrollment, Filtering, List Comprehensions).
 - `main.py`: The entry point to run the demonstration.
-- `task2_graph.py`: Implementation of the Graph and BFS algorithm.
 
 ## 🛠️ OOP Concepts Applied
 - **Abstraction:** Used `ABC` for the base `User` class.
