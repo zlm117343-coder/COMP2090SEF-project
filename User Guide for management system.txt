@@ -1,3 +1,9 @@
-For the University Course Management System to be properly executed, a specific environment must first be prepared. It is required that Python 3 is installed on the local machine. All project modules, specifically models.py, engine.py, and main.py, are placed into a single directory to ensure the import statements function correctly. A terminal or command prompt is then opened, and the project directory is accessed by the cd command being used.
+For the University Course Management System to be properly executed, a specific environment must first be prepared. 
+It is required that Python 3 is installed on the local machine. 
+All project modules, specifically models.py, engine.py, and main.py, are placed into a single directory to ensure the import statements function correctly. 
+A terminal or command prompt is then opened, and the project directory is accessed by the cd command being used.
 
-The program is started by the command python main.py being entered into the terminal window. Once this script is executed, the management system is initialized, and the enrollment process is demonstrated automatically in the console. If new data needs to be entered, the main.py file is opened in a text editor, and new student or course objects are added following the existing code format. After the file is saved, the program is re-run so that the updated results can be observed in the terminal.
+The program is started by the command python main.py being entered into the terminal window. 
+Once this script is executed, the management system is initialized, and the enrollment process is demonstrated automatically in the console. 
+If new data needs to be entered, the main.py file is opened in a text editor, and new student or course objects are added following the existing code format. 
+After the file is saved, the program is re-run so that the updated results can be observed in the terminal.
