@@ -1,3 +1,8 @@
-For the Graph and BFS algorithm to be demonstrated, the file named task2_graph.py is utilized. Similar to the previous task, the terminal is opened and navigated to the folder where the script is stored. The execution of the algorithm is triggered by the command python task2_graph.py being typed into the command line.
+For the Graph and BFS algorithm to be demonstrated, the file named task2_graph.py is utilized. 
+Similar to the previous task, the terminal is opened and navigated to the folder where the script is stored. 
+The execution of the algorithm is triggered by the command python task2_graph.py being typed into the command line.
 
-Upon the script being run, a campus map graph is automatically constructed within the program. The Breadth-First Search (BFS) algorithm is then performed on this graph starting from a designated node. The results of the traversal, which show each visited building in a layer-by-layer order, are displayed directly in the terminal window. This process allows the functionality of the non-linear data structure and the search algorithm to be verified without the need for any external libraries.
+Upon the script being run, a campus map graph is automatically constructed within the program. 
+The Breadth-First Search (BFS) algorithm is then performed on this graph starting from a designated node. 
+The results of the traversal, which show each visited building in a layer-by-layer order, are displayed directly in the terminal window. 
+This process allows the functionality of the non-linear data structure and the search algorithm to be verified without the need for any external libraries.
