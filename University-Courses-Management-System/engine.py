@@ -17,9 +17,31 @@ class ManagementSystem:
         if student and course:
             course.students.append(student)
             student.enrolled_courses.append(course)
-            print(f"Success: {student.name} enrolled in {course.title}")
+            print(f"Success: {student.name} enrolled in {course.course_code}")
         else:
             print("Error: Student or Course not found.")
+
+    def get_students_in_course(self, course_code):
+        course = next(filter(lambda c: c.course_code == course_code, self.courses), None)
+        if not course:
+            print(f"Course {course_code} not found.")
+            return None
+        return course.students
+    
+    def print_course_details(self, course_code):
+        course = next(filter(lambda c: c.course_code == course_code, self.courses), None)
+        if not course:
+            print(f"Course {course_code} not found.")
+            return
+        
+        print(f"\n--- Course Details for {course.course_code} ---")
+        print(f"Instructor: {course.instructor.get_details()}")
+        print("\nEnrolled Students:")
+        if not course.students:
+            print("No students enrolled yet.")
+        else:
+            for s in course.students:
+                print(f"  {s._user_id}: {s.name} (Major: {s.major})")
 
     def get_all_course_titles(self):
         # ADVANCED PYTHON: List Comprehension
