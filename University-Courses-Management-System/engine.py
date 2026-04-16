@@ -35,7 +35,7 @@ class ManagementSystem:
             return
         
         print(f"\n--- Course Details for {course.course_code} ---")
-        print(f"Instructor: {course.instructor.get_details()}")
+        print(f"Instructor: {course.instructor.name}")
         print("\nEnrolled Students:")
         if not course.students:
             print("No students enrolled yet.")
