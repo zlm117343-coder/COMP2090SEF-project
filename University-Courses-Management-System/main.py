@@ -1,4 +1,4 @@
- from models import Student, Instructor, Course
+from models import Student, Instructor, Course
 from engine import ManagementSystem
 
 def run_demo():
